@@ -6,4 +6,4 @@ A temporização do software foi modificado à medida que o aumentava o clock, s
 GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_4, GPIO_PIN_4) é a forma mais legível de compreender quando se está lidando com um código.
 
 GPIOPinTypeGPIOOutput(0x40025000, 0x00000011); é a forma mais fácil de compreender.
-Aos olhos desatentos, a barra '|' fica imperceptível aosolhos desatentos.
+Aos olhos desatentos, a barra '|' fica imperceptível à leitura rápida de GPIOPinTypeGPIOOutput(GPIO_PORTF_BASE, GPIO_PIN_0 | GPIO_PIN_4).
