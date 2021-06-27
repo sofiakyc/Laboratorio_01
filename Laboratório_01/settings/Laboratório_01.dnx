@@ -46,19 +46,19 @@
         <MultiCoreRunAll>1</MultiCoreRunAll>
     </Simulator>
     <LmiFtdiDriver>
-        <LMIFTDIserialNo>0F00C12C</LMIFTDIserialNo>
-        <LMIFTDIfoundProbes />
         <LeaveTargetRunning>_ 0</LeaveTargetRunning>
         <CStepIntDis>_ 0</CStepIntDis>
         <LmiFtdiResetStyle>0</LmiFtdiResetStyle>
         <LmiFtdiResetStrategy>0</LmiFtdiResetStrategy>
+        <LMIFTDIserialNo>0F00C12C</LMIFTDIserialNo>
+        <LMIFTDIfoundProbes />
     </LmiFtdiDriver>
     <PlDriver>
-        <FirstRun>0</FirstRun>
         <MemConfigValue>C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CONFIG\debugger\TexasInstruments\TM4C1294NCPDT.ddf</MemConfigValue>
+        <FirstRun>0</FirstRun>
     </PlDriver>
     <DebugChecksum>
-        <Checksum>4231808155</Checksum>
+        <Checksum>2480899316</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -83,18 +83,15 @@
     <Breakpoints2>
         <Count>0</Count>
     </Breakpoints2>
-    <TermIOLog>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-    </TermIOLog>
     <LogFile>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
     <Aliases>
-        <A0>_ "C:\Users\Usuario\Desktop\Projetos_TIVA\TM4C1294_Bare_IAR9-main\TivaWare_C_Series-2.1.4.178\driverlib\systick.c" "C:\sofia\8periodo\sistemasEmbarcados\workspace\Laboratorio_01\TM4C1294_Bare_IAR9\TivaWare_C_Series-2.1.4.178\driverlib\systick.c"</A0>
-        <Count>1</Count>
+        <A0>_ "C:\Users\Usuario\Desktop\Projetos_TIVA\TM4C1294_Bare_IAR9-main\TivaWare_C_Series-2.1.4.178\driverlib\gpio.c" "C:\sofia\8periodo\sistemasEmbarcados\workspace\Laboratorio_01\TM4C1294_Bare_IAR9\TivaWare_C_Series-2.1.4.178\driverlib\gpio.c"</A0>
+        <A1>_ "C:\Users\Usuario\Desktop\Projetos_TIVA\TM4C1294_Bare_IAR9-main\TivaWare_C_Series-2.1.4.178\driverlib\systick.c" "C:\sofia\8periodo\sistemasEmbarcados\workspace\Laboratorio_01\TM4C1294_Bare_IAR9\TivaWare_C_Series-2.1.4.178\driverlib\systick.c"</A1>
+        <Count>2</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
     <CallStackLog>
@@ -103,4 +100,8 @@
     <CallStackStripe>
         <ShowTiming>1</ShowTiming>
     </CallStackStripe>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
 </settings>
