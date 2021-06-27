@@ -24,5 +24,5 @@ R: GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_4, GPIO_PIN_4);
 P: Qual dos trechos de código acima é mais legível e fácil de se compreender?
 GPIOPinTypeGPIOOutput(GPIO_PORTF_BASE, GPIO_PIN_0 | GPIO_PIN_4);
 GPIOPinTypeGPIOOutput(0x40025000, 0x00000011);
-R: A segunda opção, talvez não seja usado em um código em situações de mercado por ser hard coded. A primeira opção seria uma melhor escolha, apesar do '|' enganar os olhos desatentos.
+R: A segunda opção, talvez não seja de boa prática por conter informação hardcoded. A primeira opção seria uma melhor escolha, apesar do '|' enganar os olhos desatentos.
 
