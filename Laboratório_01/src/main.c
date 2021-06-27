@@ -12,7 +12,7 @@ void main(void){
   int k = 0, n = 0;
   
   while (true){
-    for (int j = 0; j < 3800000; j++){
+    for (int j = 0; j < 3500000; j++){
         k = 0;
     }
     LED_D4 ^= GPIO_PIN_0; // Troca de estado
