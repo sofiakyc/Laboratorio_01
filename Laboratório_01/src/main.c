@@ -6,10 +6,10 @@
 #include "driverlib/sysctl.h"
 #include "driverlib/systick.h"
 
-void initPin4();
+void initLed4();
 
 void main(void){
-  initPin4();
+  initLed4();
   uint8_t LED_D4 = 0;
   int k = 0;
   
@@ -23,7 +23,7 @@ void main(void){
   } 
 } 
 
-void initPin4()
+void initLed4()
 {
     SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOF); // Habilita GPIO F (LED D3 = PF4, LED D4 = PF0)
     while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOF)); // Aguarda final da habilitação
